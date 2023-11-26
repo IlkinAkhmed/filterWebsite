@@ -1,0 +1,79 @@
+section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header {
+    background-image: url('https://portotheme.com/html/molla/assets/images/page-header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    padding: 50px 100px;
+}
+
+.head-of-shop {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    padding: 10px 0;
+    color: gray;
+}
+
+.filters {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.filters :nth-child(2){
+    color: #c96;
+}
+
+.showing {
+    width: 48%;
+}
+
+.showing span {
+    color: rgb(0, 0, 0);
+}
+
+.sort {
+    width: 28%;
+    display: flex;
+    align-items: center;
+}
+
+.sort .sortOptions {
+    background-color:#c96;
+    color: white;
+    margin-left: 10px;
+    padding: 5px 10px ;
+    border-radius: 35px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+    &:hover{
+        color: #c96;
+        background-color: white;
+        transition: 0.5s;
+    }
+}
+
+.products {
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+
+

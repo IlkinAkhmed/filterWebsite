@@ -1,0 +1,86 @@
+.product-part {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+.product-part .card {
+    width: 23%;
+    cursor: pointer;
+    margin: 20px 0;
+
+
+}
+
+.product-part .card .image {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.product-part .card .image:hover .icons {
+    transform: translateX(10px);
+    transition: 0.5s;
+    opacity: 1;
+}
+.product-part .card .image:hover .add {
+    bottom: 0;
+    transition: 0.5s;
+}
+
+.product-part .card .image .icons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 20px;
+    right: 30px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.product-part .card .image .add {
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    background-color: white;
+    color: #c96;
+    transition: 0.5s;
+}
+.product-part .card .image .add:hover{
+    background-color: #c96;
+    color: white;
+}
+.product-part .card .image .icons i {
+    background-color: white;
+    padding: 7px;
+    border-radius: 50%;
+    color: #c96;
+    transition: 0.5s;
+}
+.product-part .card .image .icons i:hover{
+    background-color: #c96;
+    color: white;
+    transition: 0.5s;
+}
+
+.product-part .card .image img {
+    width: 100%;
+
+}
+
+.product-part .card .texts {
+    height: 30%;
+    padding: 0px 0;
+    text-align: center;
+}
+
+.product-part .card .texts .fa-star {
+    color: goldenrod;
+}

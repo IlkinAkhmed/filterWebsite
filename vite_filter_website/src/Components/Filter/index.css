@@ -1,0 +1,81 @@
+.filter-part {
+    width: 20%;
+    line-height: 2;
+    padding: 20px 0;
+}
+
+.filter-part ul .categories {
+    font-size: 17px;
+    width: 95%;
+    border-top: 1px solid #c96;
+    cursor: pointer;
+    color: black;
+    position: relative;
+}
+.brand{
+    border-bottom: 1px solid #c96;
+}
+
+.filter-part ul .categories .fa-chevron-down,
+.fa-chevron-up {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.category-types {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.color-checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  /* Define different colors for each checkbox */
+  .brown {
+    background-color: brown;
+  }
+  .red{
+    background-color: red;
+  }
+  
+  .beige {
+    background-color: beige;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .khaki {
+    background-color: khaki;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .black {
+    background-color: black;
+  }
+  
+.open-category {
+    max-height: 500px;
+    transition: max-height 0.5s;
+
+}
